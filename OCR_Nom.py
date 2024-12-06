@@ -61,7 +61,7 @@ def upload_and_ocr_nom_image(image_path, output_file):
                 #print(f"OCR Result: {ocr_result_file_name}")
                 with open(output_file, "a", encoding="utf-8", errors="replace") as ocr_result_file:
                     
-                    result_text = f"ID: {ocr_result_file_name}\OCR Result: {ocr_response['data']['result_bbox']}\n"
+                    result_text = f"ID: {image_file}\OCR Result: {ocr_response['data']['result_bbox']}\n"
                     ocr_result_file.write(result_text)
                 print(f"OCR results appended to {output_file}")
                 return True
