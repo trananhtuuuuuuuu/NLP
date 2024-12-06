@@ -73,7 +73,7 @@ def upload_and_ocr_nom_image(image_path, output_file):
 
 # 472 481 486 -> 495 497
 def main():
-    image_dir = "extracted_images"
+    image_dir = "extracted_images_bandau"
     start_page = 370  # Customize the start page number
     end_page = 375   # Customize the end page number
     output_file = output_file_name
