@@ -69,8 +69,8 @@ def upload_and_ocr_nom_image(image_path, output_file):
 
 def main():
     image_dir = "extracted_images_bandau"  # Customize the image directory
-    start_page = 426  # Customize the start page number
-    end_page = 470   # Customize the end page number
+    start_page = 441  # Customize the start page number
+    end_page = 498   # Customize the end page number
     output_file = output_file_name
     with open(output_file, "w", encoding="utf-8", errors="replace") as f:
         f.write("")  # Clear the file at the start
